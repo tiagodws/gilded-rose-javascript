@@ -93,20 +93,6 @@ never alters.
 
 ## Help
 
-Please read those only after tring yourself first.
-
-<details> <summary>I have no idea what I should do</summary>
-
-Make sure you read the text properly. It asks you to add a support for a new type of product. However, the _real task_ is to refactor the current code first as it is uneasy to follow.
-
-Most people would probably work in this order:
-
-1. Write unit tests for all current product types and all edge cases
-2. Refactor the code to be more understandable; the unit tests will help prevent regressions
-3. Add unit tests for the new product, thinking about all edge cases
-4. Update the code to handle the new product and make tests pass
-   </details>
-
 <details> <summary>How do I verify I fullfiled the task?</summary>
 
 The task has many edge cases. It can be easy to think you are done, but there could be regressions. In fact, that happened to me the first time I tried this kata.
